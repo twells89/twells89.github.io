@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => {
   return {
-    base: '/twells89.github.io/',
+    base: './', // Changed from '/twells89.github.io/'
     server: {
       host: "::",
       port: 8080,
